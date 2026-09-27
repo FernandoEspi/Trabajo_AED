@@ -1,0 +1,17 @@
+[
+  {"action": "insert", "value": 8, "path": []},
+  {"action": "insert", "value": 3, "path": [8]},
+  {"action": "insert", "value": 10, "path": [8]},
+  {"action": "insert", "value": 1, "path": [8, 3]},
+  {"action": "insert", "value": 6, "path": [8, 3]},
+  {"action": "insert", "value": 14, "path": [8, 10]},
+  {"action": "insert", "value": 4, "path": [8, 3, 6]},
+  {"action": "insert", "value": 9, "path": [8, 10]},
+  {"action": "search", "value": 9, "found": true, "path": [8, 10, 9]},
+  {"action": "delete", "value": 1, "found": true, "path": [8, 3, 1]},
+  {"action": "delete", "value": 4, "found": true, "path": [8, 3, 6, 4]},
+  {"action": "delete", "value": 6, "found": true, "path": [8, 3, 6]},
+  {"action": "inorder", "path": [3, 8, 9, 10, 14]},
+  {"action": "preorder", "path": [8, 3, 10, 9, 14]},
+  {"action": "postorder", "path": [3, 9, 14, 10, 8]}
+]
